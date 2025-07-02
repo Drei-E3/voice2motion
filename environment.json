@@ -1,0 +1,69 @@
+{
+    "object_1":{
+        "name": "handy",
+        "geo": {
+            "type": "cuboid",
+            "coordinates": [
+                {"x": 0.0, "y": 0.0, "z": 0.0},
+                {"x": 0.0, "y": 0.0, "z": 2.0},
+                {"x": 0.0, "y": 5.0, "z": 0.0},
+                {"x": 0.0, "y": 5.0, "z": 2.0},
+                {"x": 10.0, "y": 0.0, "z": 0.0},
+                {"x": 10.0, "y": 0.0, "z": 2.0},
+                {"x": 10.0, "y": 5.0, "z": 0.0},
+                {"x": 10.0, "y": 5.0, "z": 2.0}
+            ]
+        },
+        "parameters": {
+                "max_pressure": null,
+                "hardness":0.5,
+                "friction": 0.3,
+                "temperature": 300.0,
+                "color": "blue",
+                "material": "plastic",
+                "penetrable": "no",
+                "rotation": "no"
+
+        }
+    },
+    "object_2": {
+        "name": "apple",
+        "geo": {
+          "type": "sphere",
+          "center": [{"x": -6.0, "y": -6.0, "z": -6.0 }],
+          "radius": 4.0
+        },
+        "parameters": {
+          "max_pressure": null,       
+          "hardness": 0.5,
+          "friction": 0.3,
+          "temperature": 300.0,
+          "color": "red",
+          "material": "fruit",
+          "penetrable": "no",
+          "rotation": "no"
+        }
+      },
+      "object_3": {
+        "name": "banana",
+        "geo": {
+          "type": "curve_with_radius",  
+          "centerline": [
+            { "x": 15.0, "y": 0.0, "z": 0.0 },
+            { "x": 16.5, "y": 1.0, "z": 0.0 },
+            { "x": 18.0, "y": 2.0, "z": 0.0 },
+            { "x": 19.0, "y": 3.2, "z": 0.0 },
+            { "x": 19.5, "y": 4.5, "z": 0.0 }
+          ],
+          "radius": 0.5  
+        },
+        "parameters": {
+          "max_pressure": null,
+          "hardness": 0.3,
+          "friction": 0.4,
+          "temperature": 295.0,
+          "color": "yellow",
+          "material": "fruit"
+        }
+      }
+}
